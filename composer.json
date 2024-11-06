@@ -1,0 +1,25 @@
+{
+  "name": "jorro/reflective",
+  "description": "Jorro framework Reflective package.",
+  "homepage": "https://github.com/d1vby0/jorro",
+  "license": "MIT",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "d1vby0"
+    }
+  ],
+  "require": {
+    "php": "^8.4",
+    "psr/container": "*",
+    "jorro/bootstrap": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jorro\\Reflective\\": "src/"
+    }
+  }
+}
